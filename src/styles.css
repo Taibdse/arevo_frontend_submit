@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: black;
+  color: darkgray;
+  position: relative;
+}
+
+.segment {
+  background-color: darkgray;
+  border-radius: 5px;
+  height: 12px;
+  position: absolute;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.segment > .start{
+  float: left;
+  margin-left: 5px;
+}
+
+.segment .end{
+  float: right;
+  margin-right: 5px;
+}
+
+.clearfix{
+  clear: both;
+}
+
